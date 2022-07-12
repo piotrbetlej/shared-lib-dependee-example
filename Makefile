@@ -10,4 +10,4 @@ shared-lib-dependee-example.o :  shared-lib-dependee-example.c
 	$(CC) $(CFLAGS) -c shared-lib-dependee-example.c
 
 clean :
-	rm -rf *.so *.o
+	rm -rf *.o shared-lib-dependee-example
